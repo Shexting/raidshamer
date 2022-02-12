@@ -73,7 +73,7 @@ public class RaidShamerPlugin extends Plugin{
     @Subscribe
     public void onVarbitChanged(VarbitChanged event)
     {
-        inTob = client.getVar(Varbits.THEATRE_OF_BLOOD) > 1;
+        inTob = client.getVar(Varbits.) > 1;
     }
 
     private void takeScreenshot(String fileName, String subDir)
